@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+<LinearLayout android:layout_width="fill_parent"
+    android:id="@+id/main"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	
+	
+	    
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow1"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+	    
+	    
+	    
+	
+	    <CheckBox
+	        android:id="@+id/CheckBoxSC"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="SC" />
+	    <CheckBox
+	        android:id="@+id/CheckBoxLC"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="LC" />
+	
+	    <CheckBox
+	        android:id="@+id/CheckBoxLF"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="LF" />
+	    <CheckBox
+	        android:id="@+id/CheckBoxHF"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="HF" />
+	    <CheckBox
+	        android:id="@+id/CheckBoxCR"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="CR" />
+	
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow3"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+	
+	    
+	    <CheckBox
+	        android:id="@+id/CheckBoxBS"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="BS" />
+	
+	    <CheckBox
+	        android:id="@+id/CheckBoxCS"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+
+	        android:text="CS" />
+	    <CheckBox
+	        android:id="@+id/CheckBoxRC"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+
+	        android:text="RC" />
+	
+	    <CheckBox
+	        android:id="@+id/checkBoxBB"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="BB" />
+	
+	    <CheckBox
+	        android:id="@+id/CheckBoxDS"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="DS" />
+	
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow4"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >	
+	
+	    <CheckBox
+	        android:id="@+id/CheckBoxRIP"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="RIP" />
+	
+	    <CheckBox
+	        android:id="@+id/CheckBoxBC"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+
+	        android:checked="false"
+	        android:text="BC" />
+	    
+	    
+	    <CheckBox
+	        android:id="@+id/checkBoxGENERAL"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="50dip"
+	        android:text="General" />
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow6"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Hyperspace Lvl" />
+	
+	    <Spinner
+	        android:id="@+id/spinner1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+
+		<TextView
+		    android:id="@+id/TextView01"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Impulse Lvl" />
+	
+	    <Spinner
+	        android:id="@+id/spinner2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+
+	    
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow8"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+	    <TextView
+	        android:id="@+id/TextView02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Combustion Lvl" />
+	    <Spinner
+	        android:id="@+id/spinner3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+
+	    <TextView
+	        android:id="@+id/TextView03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Event Factor" />
+	
+	    <Spinner
+	        android:id="@+id/spinner4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow11"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >	    
+	    
+	    <TextView
+	        android:id="@+id/TextView04"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:text="Origin\t\t\t" />    
+	    
+	    <Spinner
+	        android:id="@+id/spinner_orig_a"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView116"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="." />
+	    <Spinner
+	        android:id="@+id/spinner_orig_b"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView117"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="." />
+	    <Spinner
+	        android:id="@+id/spinner_orig_c"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow111"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >	    
+	    
+	    <TextView
+	        android:id="@+id/TextView104"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:text="Destination" />    
+	    
+	    <Spinner
+	        android:id="@+id/spinner_targ_a"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView1116"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="." />
+	    <Spinner
+	        android:id="@+id/spinner_targ_b"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView1117"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="." />
+	    <Spinner
+	        android:id="@+id/spinner_targ_c"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	</LinearLayout>
+	
+	
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow149"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+	  
+	    <TextView
+	        android:id="@+id/TextView156"
+	        android:layout_width="wrap_content"
+	        android:layout_height="42dp"
+	        android:text="Duration \nat Recall:" />
+	    	    
+	    
+	    <Spinner
+	        android:id="@+id/spinner_Remainingdays"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView1626"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="d" />
+	    <Spinner
+	        android:id="@+id/spinner_Remaininghours"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView166"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="h" />
+	    <Spinner
+	        android:id="@+id/spinner_Remainingminutes"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView176"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="m" />
+	    <Spinner
+	        android:id="@+id/spinner_Remainingseconds"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView1376"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="s" />
+	    
+	    
+		</LinearLayout>
+	
+	
+	
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow14"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+	    	    
+	  
+	    <TextView
+	        android:id="@+id/TextView15"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Recall Time:" />
+	    <Spinner
+	        android:id="@+id/spinner_Departhours"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView16"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="h" />
+	    <Spinner
+	        android:id="@+id/spinner_Departminutes"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView17"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="m" />
+	    <Spinner
+	        android:id="@+id/spinner_Departseconds"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <TextView
+	        android:id="@+id/TextView137"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="s" />
+	    
+	    
+		</LinearLayout>
+		
+		
+		
+		
+		
+		
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow16"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+	    	    
+	  
+	    <TextView
+	        android:id="@+id/TextView115"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="\t\t--Return Duration--\t\t\t--Return Time--" />
+
+	    
+	    
+		</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+	    android:id="@+id/layoutRow13"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" >
+	    	    
+	
+	    <TextView
+	        android:id="@+id/textViewOUTPUT"
+	        android:layout_width="170dp"
+	        android:layout_height="wrap_content"
+	        android:textIsSelectable="true"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />    
+	    
+	    <TextView
+	        android:id="@+id/textViewARRIVAL"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textIsSelectable="true"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />  
+	    
+		</LinearLayout>
+	</LinearLayout>
+
+
+</ScrollView>
